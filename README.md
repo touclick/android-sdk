@@ -126,6 +126,8 @@ mImgButton.setTouchable(false);
 
 ### 2、App引用TouClick项目:
 ![image](https://raw.githubusercontent.com/zyayhj/captcha-demo/image/images/touclick-android-sdk-introduction2.jpeg)
+
+
 完成上述操作，既可在项目中正常使用验证码。
 ### 3、项目使用：
 参考Android Studio中的`《4、项目使用》`
