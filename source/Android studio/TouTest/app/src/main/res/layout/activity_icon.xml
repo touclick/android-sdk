@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:img="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="0dp" >
+
+    <TextView
+        android:id="@+id/tvresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="欢迎使用点触验证" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="170dp" >
+
+        <com.touclick.android.ui.ImgTxtRelativeLayout
+            android:id="@+id/imgtxtrelativelayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            img:checkbg="@drawable/touclick_capcha_btn_click_normal"
+            img:checkerrortxt="@string/check_fail"
+            img:checkheight="50dp"
+            img:checkokbg="@drawable/touclick_capcha_btn_click_normal"
+            img:checkoktxt="@string/check_success"
+            img:checktxt="@string/click_check"
+            img:checktype="14"
+            img:checkwidth="280dp" />
+
+        <ImageView
+            android:id="@+id/bg_u22"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:src="@drawable/bg_u22" />
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/logo_w" />
+    </RelativeLayout>
+
+</RelativeLayout>
