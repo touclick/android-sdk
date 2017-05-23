@@ -33,7 +33,7 @@ dependencies {
 ```
 ### 4、项目使用:
 #### （1）在需要使用验证码的页面的XML中添加相应控件:
-A、**图标选择型:**根据文字选择出符合要求的图片:
+A、`图标选择型:`根据文字选择出符合要求的图片:
 ```xml
  <com.touclick.android.ui.ImgTxtButton
 	android:id="@+id/imgtxtbutton"
@@ -49,7 +49,7 @@ A、**图标选择型:**根据文字选择出符合要求的图片:
 	img:checktxt="@string/click_check"
 	img:checktype="14" />
 ```
-B、**图文点击型：**根据文字，按顺序选中图片相应的文字：
+B、`图文点击型：`根据文字，按顺序选中图片相应的文字：
 ```xml
 <com.touclick.android.ui.ImgTxtButton
 	android:id="@+id/imgtxtbutton"
@@ -122,31 +122,13 @@ mImgButton.setTouchable(false);
 
 ### 1、TouClick项目导入：
 在Eclipse的Package Explore栏目的空白区，右键选择Import
+![image](https://raw.githubusercontent.com/zyayhj/captcha-demo/image/images/touclick-android-sdk-introduction1.jpeg)
 
-```flow
-st=>start: Import
-e=>end: 导入项目成功
-op1=>operation: Existing Project into Workspace
-op2=>operation: 选择示例代码中的Eclipse／WuyiTouClick-sdk项目
-op3=>operation: 导入成功
-
-st->op1->op2->op3->e
-```
 ### 2、App引用TouClick项目:
-
-```flow
-st=>start: 选中自己App项目
-e=>end: 引用成功
-op1=>operation: 选中Properties
-op2=>operation: 选中Andorid
-op3=>operation: 在右侧的Library栏中点击Add
-op4=>operation: 选中TouClick项目
-
-st->op1->op2->op3->op4->e
-```
+![image](https://raw.githubusercontent.com/zyayhj/captcha-demo/image/images/touclick-android-sdk-introduction2.jpeg)
 完成上述操作，既可在项目中正常使用验证码。
 ### 3、项目使用：
-参考Android Studio中的**《4、项目使用》**
+参考Android Studio中的`《4、项目使用》`
 
 ## 方式二 资源添加
 ### 1、资源导入：
@@ -160,4 +142,4 @@ st->op1->op2->op3->op4->e
 <!-- 点触验证所需权限结束-->
 ```
 ### 3、项目使用：
-参考Android Studio中的**《4、项目使用》**
+参考Android Studio中的`《4、项目使用》`
