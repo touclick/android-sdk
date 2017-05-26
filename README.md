@@ -1,4 +1,4 @@
-# 点触验证码
+# 点触验证码前端SDK
 ## Android Studio接入方式：
 ### 1、libs添加aar：
 在android studio项目的libs添加`TouClick-V1.0.0.aar`，
